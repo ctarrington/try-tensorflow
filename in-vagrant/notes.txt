@@ -1,0 +1,9 @@
+on ubuntu 16.04
+sudo apt-get install python3-setuptools
+sudo easy_install3 pip
+sudo pip3 install --upgrade tensorflow
+sudo pip3 install pandas
+
+
+git clone https://github.com/tensorflow/models
+cd models/samples/core/get_started/
